@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Formulario de Mascotas</title>
+  <link rel="stylesheet" href="CSS\estilo.css">
+</head>
+<body>
+  <main>
+    <article>
+      <form action="">
+        <div class="container">
+          <h1>FORMULARIO PARA MASCOTAS</h1>
+        <div class="for1">
+          <label for="nombre">Nombre de la Mascota:</label>
+          <input type="text" id="nombre" name="nombre">
+        </div>
+        <div class="for1">
+          <label for="es">Especie:</label>
+          <select id="es" name="especie">
+            <option value="" disabled selected>Selecciona una especie</option>
+            <option value="Perro">Perro</option>
+            <option value="Gato">Gato</option>
+            <option value="Loro">Loro</option>
+            <option value="hamster">Hamster</option>
+            <option value="pescaditos">Pescado</option>
+          </select>  
+        </div>
+        <div class="for1">
+          <label for="ra">Raza:</label>
+          <input type="text" id="ra" name="raza">
+        </div>
+        <div class="for1">
+          <label for="gen">Género:</label>
+          <label for="ma"><input type="radio" id="ma" name="fav_language" value="macho">Macho</label>
+          <label for="he"><input type="radio" id="he" name="fav_language" value="hembra">Hembra</label>
+        </div>
+          <div class="for1">
+            <label for="ed">Edad:</label>
+            <input type="number" id="ed" name="edad" min="0" max="20">
+          </div>
+        <div class="for1">
+          <label form="comnt">Observaciones:</label>
+          <textarea rows="10" cols="30"></textarea>
+        </div>
+        <div>
+          <input class="finalizar" type="submit" value="Finalizar registro">
+        </div>
+        </div>
+      </form>
+    </article>
+  </main>
+</body>
+</html>
